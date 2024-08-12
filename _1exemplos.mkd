@@ -1,0 +1,108 @@
+# Principais Funcionalidades em Markdown
+
+Markdown é uma linguagem de marcação leve e fácil de usar. Aqui estão algumas funcionalidades importantes que são úteis de saber.
+
+[Ir para Cabeçalhos](#1-cabeçalhos)<br>
+[Ir para Links](#2-links)<br>
+[Ir para Links internos](#8-links-internos)<br>
+
+## 1. Cabeçalhos
+
+Use `#` para criar cabeçalhos. O número de `#` define o nível do cabeçalho:
+
+
+# Título Nível 1
+## Título Nível 2
+### Título Nível 3
+
+**texto em negrito** ou __texto em negrito__
+
+*texto em itálico* ou _texto em itálico_
+
+***texto em negrito e itálico***
+
+## 2. Links
+
+```markdown
+[Google](https://www.google.com)
+```
+[Google](https://www.google.com)
+
+## 3. Imagens
+
+```markdown
+![Logo do Python](https://www.python.org/static/community_logos/python-logo.png)
+```
+![Logo do Python](https://www.python.org/static/community_logos/python-logo.png)
+
+## 4. Listas
+Use -, *, ou +:
+```markdown
+- Item 1
+- Item 2
+- Item 3
+
+Lista Ordenada use números seguidos de ponto:
+1. Primeiro item
+1. Segundo item
+1. Terceiro item
+```
+- Item 1
+- Item 2
+- Item 3
+
+1. Primeiro item
+1. Segundo item
+1. Terceiro item
+
+## 5 Blocos de código
+Para destacar código, use três acentos graves (```) antes **e depois** do bloco de código:
+```markdown
+```python
+def ola_mundo():
+print("Olá, Mundo!")
+```
+
+```python
+def ola_mundo():
+print("Olá, Mundo!")
+```
+
+## 6 Citações
+
+Use > para criar citações:
+
+> Esta é uma citação em Markdown.
+
+## 7 Tabelas
+
+Crie tabelas usando | para separar colunas e - para separar o cabeçalho do corpo da tabela:
+
+```markdown
+| Coluna 1 | Coluna 2 |
+|----------|----------|
+| Linha 1  | Conteúdo |
+| Linha 2  | Conteúdo |
+```
+| Coluna 1 | Coluna 2 |
+|----------|----------|
+| Linha 1  | Conteúdo |
+| Linha 2  | Conteúdo |
+
+## 8 Links internos
+
+```markdown
+[Ir para Cabeçalhos](#1-cabeçalhos)<br>
+[Ir para Links internos](#8-links-internos)<br>
+```
+
+[Ir para Cabeçalhos](#1-cabeçalhos)<br>
+[Ir para Links internos](#8-links-internos)<br>
+
+## 9 Linhas horizontais
+```markdown
+> ---
+---
+```
+> ---
+---
